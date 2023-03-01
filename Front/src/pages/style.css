@@ -1,0 +1,199 @@
+#login .col-8 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    height: 98vh !important;
+    background-color: white;
+}
+
+#login .col-4 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    background-size: cover !important;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url('../assets/close-up-of-medic-pointing-at-tablet-screen-for-medical-practice-working-late-doctor-using-modern-device-with-touch-screen-and-talking-to-assistant-about-healthcare-system-overtime.jpg') !important;
+}
+
+#loginForm input {
+    border: 0px;
+    border-radius: 12px;
+    background-color: rgb(245, 245, 245);
+    height: 46px;
+}
+
+#loginForm input:focus {
+    box-shadow: none;
+}
+
+#loginForm button {
+    background-color: #1ee9b6;
+    border: 0px;
+    border-radius: 20px;
+    padding: 0.75em;
+    width: 40%;
+    font-weight: 500;
+}
+
+#loginForm button:hover {
+    background-color: #14a782;
+}
+
+#imagen .btn {
+    background-color: transparent;
+    border-color: 1px solid white !important;
+    border-color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    padding: 0.8em;
+    width: 60%;
+}
+
+#imagen .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#register {
+    margin-top: 10%;
+}
+
+#register .col-8 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    height: 98vh !important;
+    background-color: white;
+}
+
+#registerForm input {
+    border: 0px;
+    border-radius: 12px;
+    background-color: rgb(245, 245, 245);
+    height: 46px;
+}
+
+#registerForm select {
+    border: 0px;
+    border-radius: 12px;
+    background-color: rgb(245, 245, 245);
+    height: 46px;
+}
+
+#registerForm input:focus {
+    box-shadow: none;
+}
+
+#registerForm button {
+    background-color: #1ee9b6;
+    border: 0px;
+    border-radius: 20px;
+    padding: 0.75em;
+    width: 40%;
+    font-weight: 500;
+}
+
+#registerForm button:hover {
+    background-color: #14a782;
+}
+
+#imagen .btn {
+    background-color: transparent;
+    border-color: 1px solid white !important;
+    border-color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    padding: 0.8em;
+    width: 60%;
+}
+
+#imagen .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#misturnos button {
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+#turnos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#turnos input {
+    width: 500px;
+    border-radius: 0px !important;
+}
+
+#turnos select {
+    border-radius: 0px !important;
+}
+
+#turnos button {
+    border: 0px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #15ddab;
+}
+
+#turnos button:hover {
+    background-color: #14a782;
+}
+
+#perfil-form {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 80%;
+}
+
+#perfil-form .inactive{
+    border-radius: 0px !important;
+    color: gray;
+    background-color: rgb(245, 245, 245);
+}
+
+#perfil-form .active {
+    border-radius: 0px !important;
+    background-color: white;
+    color: black;
+}
+
+#perfil-form .dontshowconfirm {
+    transform: translateY(-50px);
+    display: none;
+    transition: ease 500ms;
+    
+}
+
+#perfil-form .showconfirm {
+    transform: translateY(0px);
+    display: block;
+    transition: ease 500ms;
+}
+
+#detalles input {
+    border-radius: 0px;
+    background-color: rgb(245, 245, 245);
+}
